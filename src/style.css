@@ -1,3 +1,4 @@
+/* default typography */
 body{
   display: flex;
   justify-content: center;
@@ -15,6 +16,7 @@ button{
   all: unset;
 }
 
+/* carousel section */
 .carousel-image-wrapper{
   position: relative;
   display: flex;
@@ -30,6 +32,7 @@ button{
   justify-content: center;
 }
 
+/* left right button section */
 .slider-btn{
   display: block;
   position: absolute;
@@ -54,6 +57,8 @@ button{
   right: 0;
 }
 
+
+/* indicator section */
 .indicator{
   width: 15px;
   height: 15px;
@@ -67,12 +72,11 @@ button{
   padding: 5px 10px;
   border-radius: 35%;
 }
-
 .active{
   background-color: #555;
 }
 
-
+/* mobile phone */
 @media screen and (max-width: 480px) {
   img{
     aspect-ratio: 10/4;
