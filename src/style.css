@@ -17,11 +17,12 @@ img{
   position: relative;
   display: flex;
   justify-content: center;
+  transition: transform 0.5s ease-in-out;
 }
 
 .carousel-container{
   width: 500px;
-  /* overflow: hidden; */
+  overflow: hidden;
   display: flex;
   position: relative;
   justify-content: center;
@@ -38,6 +39,10 @@ img{
   color: white;
   background-color: rgba(00,00,00,0.2);
   font-size: 2rem;
+  transition: 200ms ease-in-out;
+}
+.slider-btn:hover{
+  background-color: rgba(00,00,00,0.5);
 }
 
 .prev-button{
