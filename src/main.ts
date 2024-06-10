@@ -45,5 +45,13 @@ function updateIndicators() {
   });
 }
 
+setInterval(() => {
+  currIndex = currIndex + 1;
+  if(currIndex > 2){
+    currIndex = -2;
+  };
+  console.log('auto scroll')
+  updateCarousel();
+}, 5000);
 
 updateCarousel();
