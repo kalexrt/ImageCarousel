@@ -6,8 +6,8 @@ body{
 
 img{
   max-width: 1200px;
-  aspect-ratio: 6/3;
-  width: 500px;
+  aspect-ratio: 8/4;
+  width: 700px;
   display: block;
   object-fit: cover;
 }
@@ -23,7 +23,7 @@ button{
 }
 
 .carousel-container{
-  width: 500px;
+  width: 700px;
   overflow: hidden;
   display: flex;
   position: relative;
@@ -70,4 +70,11 @@ button{
 
 .active{
   background-color: #555;
+}
+
+
+@media screen and (max-width: 480px) {
+  img{
+    aspect-ratio: 10/4;
+  }
 }

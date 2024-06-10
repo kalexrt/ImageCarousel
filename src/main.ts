@@ -10,7 +10,7 @@ let currIndex = -2;
 
 function updateCarousel() {
   if (imageWrapper) {
-    const offset = -currIndex * 500; // Assuming each image is 500px wide
+    const offset = -currIndex * 700; // Assuming each image is 500px wide
     imageWrapper.style.transform = `translateX(${offset}px)`;
     updateIndicators();
   }
