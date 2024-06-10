@@ -11,7 +11,9 @@ img{
   display: block;
   object-fit: cover;
 }
-
+button{
+  all: unset;
+}
 
 .carousel-image-wrapper{
   position: relative;
@@ -29,7 +31,6 @@ img{
 }
 
 .slider-btn{
-  all: unset;
   display: block;
   position: absolute;
   top: 0;
@@ -51,4 +52,22 @@ img{
 
 .next-button{
   right: 0;
+}
+
+.indicator{
+  width: 15px;
+  height: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+}
+.indicator-container{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(00,00,00,0.2);
+  padding: 5px 10px;
+  border-radius: 35%;
+}
+
+.active{
+  background-color: #555;
 }
