@@ -64,6 +64,7 @@ button{
   height: 15px;
   background-color: #bbb;
   border-radius: 50%;
+  cursor: pointer;
 }
 .indicator-container{
   position: absolute;
